@@ -1,5 +1,6 @@
 import ButtonAnimate from "./components/ButtonAnimate";
 import ExitAnimate from "./components/ExitAnimate";
+import ExitAndStaggerAnimation from "./components/ExitAndStaggerAnimation";
 
 function App() {
   return (
@@ -19,6 +20,11 @@ function App() {
       <div className="min-h-screen flex flex-col items-center justify-center">
         <p className="p-2 mb-5 text-2xl">Click on the close icon</p>
         <ExitAnimate />
+      </div>
+
+      <div className="min-h-screen flex flex-col items-center justify-center">
+        <p className="p-2 mb-5 text-2xl">Click on the delete icon</p>
+        <ExitAndStaggerAnimation />
       </div>
     </div>
   );
