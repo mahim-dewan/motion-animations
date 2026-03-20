@@ -1,6 +1,7 @@
 import ButtonAnimate from "./components/ButtonAnimate";
 import ExitAnimate from "./components/ExitAnimate";
 import ExitAndStaggerAnimation from "./components/ExitAndStaggerAnimation";
+import DashboardPage from "./components/dashboard/DashboardPage";
 
 function App() {
   return (
@@ -26,6 +27,8 @@ function App() {
         <p className="p-2 mb-5 text-2xl">Click on the delete icon</p>
         <ExitAndStaggerAnimation />
       </div>
+
+      <DashboardPage />
     </div>
   );
 }
