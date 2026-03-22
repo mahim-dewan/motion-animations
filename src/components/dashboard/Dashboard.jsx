@@ -16,7 +16,7 @@ const commonVariant = {
 };
 const Dashboard = () => {
   return (
-    <main className="p-8 bg-slate-50 h-full">
+    <main className="p-8 bg-slate-50 h-full overflow-auto">
       <motion.div
         className="mb-8"
         variants={commonVariant}

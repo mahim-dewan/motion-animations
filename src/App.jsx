@@ -2,6 +2,7 @@ import ButtonAnimate from "./components/ButtonAnimate";
 import ExitAnimate from "./components/ExitAnimate";
 import ExitAndStaggerAnimation from "./components/ExitAndStaggerAnimation";
 import DashboardPage from "./components/dashboard/DashboardPage";
+import ScrollBox from "./components/scrollAnimation/ScrollBox";
 
 function App() {
   return (
@@ -29,6 +30,8 @@ function App() {
       </div>
 
       <DashboardPage />
+
+      <ScrollBox />
     </div>
   );
 }
