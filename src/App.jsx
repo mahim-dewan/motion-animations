@@ -4,6 +4,9 @@ import ExitAndStaggerAnimation from "./components/ExitAndStaggerAnimation";
 import DashboardPage from "./components/dashboard/DashboardPage";
 import ScrollBox from "./components/scrollAnimation/ScrollBox";
 import LayoutContainer from "./components/layoutAnimation/LayoutContainer";
+import Navbar from "./components/Navbar";
+import TextAnimation from "./components/useAnimate/TextAnimation";
+import OrderButton from "./components/useAnimate/OrderButton";
 
 function App() {
   return (
@@ -30,6 +33,14 @@ function App() {
       <DashboardPage />
       <ScrollBox />
       <LayoutContainer />
+
+      <div className="min-h-screen flex flex-col items-center justify-center">
+        <p className="p-2 mb-5 text-2xl">Hover on menu list</p>
+        <Navbar />
+      </div>
+
+      <TextAnimation />
+      <OrderButton />
     </div>
   );
 }
